@@ -8,18 +8,55 @@
 <body>
     <header>
         <h1>HANDGJORDA LEKSAKER</h1>
-        <nav>
+        <nav role="doc-pagelist">
             <a href="/index.html">HEM</a> |
             <a href="/blog.html">BLOG</a> |
             <a href="/projekt.html">PROJEKT</a> |
             <a href="/kontakt.html">KONTAKT</a>
         </nav>
     </header>
-    <footer></footer>
+    <br>
+
+    <h2>Komma i kontakt.</h2>
+    <p>Skicka ett meddelande till mig.</p>
+    <br>
+
+    <form method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">Dit Namn: </label>
+          <input type="text" name="name" id="name" required >
+        </div>
+        <br>
+        <div class="form-example">
+          <label for="email">Ditt Email: </label>
+          <input type="email" name="email" id="email" required >
+        </div>
+        <br>
+        <label for="type-of-message">Meddelandealternativ:</label>
+        <br>
+        <select size="1" name="Mydropdownmenu">
+            <option>Meddelande</option>
+            <option>Lämna in eget projekt</option>
+            <option>Dela inspiration</option>
+            <option>Feedback</option>
+        </select>
+        <br>
+        <br>
+        <label>Meddelande:</label>
+        <br>
+        <textarea name="meddelande" rows="15" cols="55" placeholder="skriv meddelandet här"></textarea>
+        <br>
+        <br>
+        <button type="submit" >Submit</button>
+    </form>
+    <br>
+
+    <footer>
         <h3>SOCIALS</h3>
         <nav>
             <a href="">Instagram</a> |
             <a href="">Facebook</a> |
+        </nav>
     </footer>
 </body>
 </html>

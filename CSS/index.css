@@ -1,0 +1,11 @@
+
+.picture-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+ .intro-paragraph {
+    margin: 30px;
+    text-align: center;
+}

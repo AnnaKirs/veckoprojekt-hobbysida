@@ -3,6 +3,10 @@
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    img{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
 }
 
  .intro-paragraph {

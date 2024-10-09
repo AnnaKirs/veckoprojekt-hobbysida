@@ -25,6 +25,9 @@ h1 {
 nav a {
     color: rgb(6, 27, 50);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    &:hover {
+        color: rgb(80, 143, 174);
+    }
 }
 
 .title-container {

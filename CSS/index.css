@@ -10,6 +10,25 @@
 }
 
  .intro-paragraph {
-    margin: 30px;
+    margin: 50px;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+abbr {
+    color: rgb(255, 165, 0);
+}
+
+.second-paragraph {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 183, 149);
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 111, 0, 0.946);
+    border-radius: 30px;
+   
+}
+
+ol {
+    line-height: 1.8;
 }

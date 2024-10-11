@@ -5,6 +5,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .page-container {
@@ -18,7 +19,6 @@ body {
 
 .front-page-title {
     color: rgb(47, 98, 132);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 900;
     font-size: 80px;
     text-align: center;
@@ -28,7 +28,6 @@ body {
 .top-navigation-bar a {
     font-size: larger;
     color: rgb(6, 27, 50);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     &:hover {
         color: rgb(80, 143, 174);
     }
@@ -47,7 +46,6 @@ body {
     padding: 50px ;
     width: 800px;
     color: rgb(6, 27, 50);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     &:hover {
         color: rgb(80, 143, 174);
     }

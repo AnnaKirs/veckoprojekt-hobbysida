@@ -10,6 +10,7 @@ body {
 
 .page-container {
    max-width: 600px;
+   width: 100vw;
 }
 
 .content-container {
@@ -20,10 +21,16 @@ body {
 .front-page-title {
     color: rgb(47, 98, 132);
     font-weight: 900;
-    font-size: 80px;
+    font-size: 7vw;
     text-align: center;
     margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+    .front-page-title {
+        font-size: 10vw;
+    }
+  }
 
 .top-navigation-bar a {
     font-size: larger;

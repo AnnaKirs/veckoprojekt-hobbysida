@@ -22,6 +22,9 @@ b {
   }
 
 .blog-entry {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     flex: 1 1 calc(50% - 20px); /* Each entry takes up 50% of the width, minus the gap */
     box-sizing: border-box; /* Ensures padding and borders don't affect the width */
     padding: 20px; /* Adds some padding inside each entry */
@@ -43,4 +46,12 @@ b {
 
 .entry-overview {
     text-align: center;
+}
+
+.iframe-container {
+  width: 100%;
+}
+
+.blog-entry-image {
+  margin-bottom: 20px;
 }
